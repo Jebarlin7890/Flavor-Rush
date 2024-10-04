@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Order Address Form</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+  <h2 class="mb-4 text-center">Food Order Address Form</h2>
+  <form action="Menu.html">
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" style="background-color: rgb(217, 204, 230);" id="firstName" placeholder="John" required>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" style="background-color: rgb(217, 204, 230);" id="lastName" placeholder="Doe" required>
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email Address</label>
+      <input type="email" class="form-control" style="background-color: rgb(217, 204, 230);" id="email" placeholder="john.doe@example.com" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="phone" class="form-label">Phone Number</label>
+      <input type="tel" class="form-control" style="background-color: rgb(217, 204, 230);" id="phone" placeholder="123-456-7890" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="address" class="form-label">Address</label>
+      <input type="text" class="form-control" style="background-color: rgb(217, 204, 230);" id="address" placeholder="123 Main St" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="city" class="form-label">City</label>
+      <input type="text" class="form-control" style="background-color: rgb(217, 204, 230);" id="city" placeholder="Anytown" required>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="state" class="form-label">State</label>
+          <input type="text" class="form-control" style="background-color: rgb(217, 204, 230);" id="state" placeholder="Tamil Nadu" required>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="zip" class="form-label">Zip Code</label>
+          <input type="text" class="form-control" style="background-color: rgb(217, 204, 230);" id="zip" placeholder="12345" required>
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-5">
+      <label for="specialInstructions" class="form-label">Special Instructions</label>
+      <textarea class="form-control" id="specialInstructions" rows="3" style="background-color: rgb(217, 204, 230);" placeholder="Any special instructions or requests?"></textarea>
+    </div>
+    <div class="d-flex justify-content-center">
+      <a href="Menu.html"><button class="btn btn-primary mb-3">Submit Order</button></a>
+    </div>
+  </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>

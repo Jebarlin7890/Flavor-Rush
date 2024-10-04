@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <a class="navbar-brand Flavor" href="#">Flavor Rush</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="home.html"><i>Home</i> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="about.html"><i>About</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="Menu.html"><i>Menu</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="tablebook.html"><i>Book Table</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="feedback.html"><i>Feedback</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="contact.html"><i>Contact</i></a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-start">
+            <a href=""><i class="fa fa-user" style="margin-right: 20px; font-size: 24px; color: white;"></i></a>
+            <a href="cart.html"><span id="cart-count" class="badge badge-light">0</span><i class="fa fa-shopping-cart" style="margin-right: 24px; font-size: 26px; color: white;"></i></a>
+            <a href=""><i class="fa fa-search" style="margin-right: 24px; font-size: 26px; color: white;"></i></a>
+          </div>
+          <form class="form-inline my-2 my-lg-0">
+            <a href="foodorder.html" class="btn btn-warning" style="border-radius: 20px;">Order Now</a>
+          </form>
+        </div>
+      </nav>
+    
+  
+       <div class="container mt-5">
+        <div class="row text-center">
+            <div class="col-12">
+                <a href="Menu.html"><button type="button" class="btn btn-light m-2 menu-border">All</button></a>
+                <a href="burger.html"><button type="button" class="btn btn-light m-2 menu-border">Burger</button></a>
+                <a href="pizza.html"><button type="button" class="btn btn-light m-2 menu-border">Pizza</button></a>
+                <a href="chicken.html"><button type="button" class="btn btn-light m-2 menu-border">Fried Chicken</button></a> 
+                <a href="french fries.html"><button type="button" class="btn btn-dark m-2 menu-border">French fries</button></a>
+            </div>
+        </div>
+       </div>
+       
+       <h2 style="text-align: center; margin: 25px;">French Fries</h2>
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-lg-3 col-md-6 mb-4"                                                                      >
+                <div class="card common-card menu-border">
+                    <div class="image-containe d-flex justify-content-center menu-hover">
+                        <img src="images/ff1.jpg" alt="Image to Zoom" class="img-fluid" width="80%">
+                    </div>
+                    <div class="card-body bg-dark menu-border">
+                        <h5 class="card-title text-center text-white">Fries</h5>
+                        <div class="d-flex justify-content-between">
+                            <button id="menu-button">$11</button>
+                            <button  onclick="addToCart('Fries', 11, 'images/ff1.jpg')" style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-4">
+                <div class="card menu-border">
+                    <div class="image-containe d-flex justify-content-center menu-hover">
+                        <img src="images/ff2.jpg" alt="Image to Zoomcol-lg-3" class="img-fluid" width="80%">
+                    </div>
+                    <div class="card-body bg-dark menu-border">
+                        <h5 class="card-title text-center text-white">Chilli Cheese</h5>
+                        <div class="d-flex justify-content-between">
+                            <button id="menu-button">$14</button>
+                            <button  onclick="addToCart('Chilli Cheese', 14, 'images/ff2.jpg')" style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card menu-border">
+                    <div class="image-containe d-flex justify-content-center menu-hover">
+                        <img src="images/ff3.jpg" alt="Image to Zoom" class="img-fluid" width="80%">
+                    </div>
+                    <div class="card-body bg-dark menu-border">
+                        <h5 class="card-title text-center text-white">Cheese</h5>
+                        <div class="d-flex justify-content-between">
+                            <button id="menu-button">$18</button>
+                            <button  onclick="addToCart('Cheese', 18, 'images/ff3.jpg')" style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card menu-border">
+                    <div class="image-containe d-flex justify-content-center menu-hover">
+                        <img src="images/ff4.jpg" alt="Image to Zoom" class="img-fluid" width="80%">
+                    </div>
+                    <div class="card-body bg-dark menu-border">
+                        <h5 class="card-title text-center text-white">Standard Cut</h5>
+                        <div class="d-flex justify-content-between">
+                            <button id="menu-button">$13</button>
+                            <button  onclick="addToCart('Standard Cut', 13, 'images/ff4.jpg')" style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                        </div> 
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>
+
+    <h1 class="text-center mt-5">Our Chefs</h1>
+    <div class="container mt-4 mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="media-item d-flex justify-content-around bg-dark border-inner img-box">
+                    <img src="images/fc.jpg" alt="Placeholder Image 1" class="img-fluid">
+                    <div class="media-item-content">
+                      <h5 class="text-white">Name : Jaison</h5>
+                      <h5 class="card-text">Exprience : 5 Yrs</h5>
+                      <div class="d-flex justify-content-around mt-4" id="so">
+                        <i class="fa fa-facebook" style="font-size:24px"></i>
+                        <i class="fa fa-twitter" style="font-size:24px" ></i>
+                        <i class="fa fa-instagram" style="font-size:24px;"></i>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="media-item bg-dark d-flex justify-content-around border-inner img-box">
+                    <img src="images/fc2.jpg" alt="Placeholder Image 2" class="img-fluid">
+                    <div class="media-item-content">
+                        <h5 class="text-white">Name : Nosian</h5>
+                        <h5 class="card-text">Exprience : 3 Yrs</h5>
+                        <div class="d-flex justify-content-around mt-4" id="so">
+                            <i class="fa fa-facebook" style="font-size:24px"></i>
+                            <i class="fa fa-twitter" style="font-size:24px" ></i>
+                            <i class="fa fa-instagram" style="font-size:24px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- Embedded JavaScript -->
+    <script>
+        // Initialize cart array from localStorage
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+        // Display the current cart count
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCartCount();
+        });
+
+        // Function to add product to cart
+        function addToCart(name, price, imgSrc) {
+            const existingProductIndex = cart.findIndex(item => item.name === name);
+
+            // If the product is already in the cart, increase its quantity
+            if (existingProductIndex !== -1) {
+                cart[existingProductIndex].quantity++;
+            } else {
+                // If the product is not in the cart, add it with quantity 1
+                cart.push({ name, price, imgSrc, quantity: 1 });
+            }
+
+            // Save updated cart to localStorage
+            localStorage.setItem('cart', JSON.stringify(cart));
+
+            // Update the cart count badge
+            updateCartCount();
+        }
+
+        // Function to update the cart count displayed in the badge
+        function updateCartCount() {
+            const cartCount = cart.reduce((count, item) => count + item.quantity, 0);
+            document.getElementById('cart-count').textContent = cartCount;
+        }
+    </script> 
+</body>
+</html>

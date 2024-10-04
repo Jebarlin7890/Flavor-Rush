@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- feedback link --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <a class="navbar-brand Flavor" href="#">Flavor Rush</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-warning" href="home.html"><i>Home</i> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="about.html"><i>About</i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="Menu.html"><i>Menu</i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="tablebook.html"><i>Book Table</i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="feedback.html"><i>Feedback</i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="contact.html"><i>Contact</i></a>
+              </li>
+          </ul>
+          <div class="d-flex justify-content-start">
+            <a href=""><i class="fa fa-user" style="margin-right: 20px; font-size: 24px; color: white;"></i></a>
+            <a href=""><i class="fa fa-shopping-cart" style="margin-right: 24px; font-size: 26px; color: white;"></i></a>
+            <a href=""><i class="fa fa-search" style="margin-right: 24px; font-size: 26px; color: white;"></i></a>
+          </div>
+          <form class="form-inline my-2 my-lg-0">
+            <a href="foodorder.html" class="btn btn-warning" style="border-radius: 20px;">Order Now</a>
+          </form>
+        </div>
+    </nav>
+
+    <section>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/1.avif" alt="Second slide" width="1280px" height="585px">
+              <div class="text-container carousel-Content">
+                <h1 style="color:rgb(208, 208, 103); font-family:'Dancing Script', cursive;">DELICIOUS BURGER</h1>
+                <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. <br> ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p><br>
+                <a href="foodorder.html" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/2.jpg" alt="Third slide" width="1280px" height="585px">
+              <div class="text-container carousel-Content">
+                <h1 style="color:rgb(208, 208, 103); font-family:'Dancing Script', cursive;">CRISPY CHICKEN!!</h1>
+                <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam <br> quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p><br>
+                <a href="foodorder.html" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/3.avif" alt="Third slide" width="1280px" height="585px">
+              <div class="text-container carousel-Content">
+                <h1 style="color:rgb(208, 208, 103); font-family:'Dancing Script', cursive;">FRIENCH FRIES</h1>
+                <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam <br> quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p><br>
+                <a href="foodorder.html" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </section>
+
+    <section></section>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="media-item d-flex justify-content-around bg-dark img-box">
+                    <img src="images/ts.jpg" alt="Placeholder Image 1" class="img-fluid rounded-circle moving-image">
+                    <div class="media-item-content">
+                      <h5 class="text-white">Tasty Sunday</h5>
+                      <h1 class="card-text text-light">20% off</h1>
+                      <a href="foodorder.html"><button class="btn btn-warning" style="font-size: 20px; border-radius: 20px;">Order Now <i class="fa fa-shopping-cart"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="media-item bg-dark d-flex justify-content-around img-box">
+                    <img src="images/pd.jpg" alt="Placeholder Image 2" class="img-fluid rounded-circle moving-image">
+                    <div class="media-item-content">
+                        <h5 class="text-white">Pizza Day</h5>
+                        <h1 class="card-text text-light">15% off</h1>
+                        <a href="foodorder.html"><button class="btn btn-warning" style="font-size: 20px; border-radius: 20px;">Order Now <i class="fa fa-shopping-cart"></i></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="d-flex justify-content-center">
+      <a href="" class="btn"></a>
+    </div>
+
+    <h1 class="text-center">About As</h1>
+    <section style="overflow: hidden; margin-top: 60px;">
+      <div class="bg-dark">
+        <div class="container pt-">
+          <div class="row align-items-center">
+            <div class="col-md-6 d-flex justify-content-center mt-5">
+                <img src="images/5.png" class="img-fluid mb-5" alt="Image"  width="80%">
+            </div>
+            <div class="col-md-6">
+              <h1 style="color: wheat; font-family:'Dancing Script', cursive; text-align: center; padding-bottom: 30px;" >We Are Flavor Rush</h1>
+                <p style="color: white; font-size: 15px; text-indent: 60px;">Welcome to Flavor Rush, where every meal is a journey into culinary delight. Founded in 2022 by jebarlin, our restaurant is dedicated to offering an exceptional dining experience with a focus on customer needs. Our menu features are so delicious, crafted with passion and care. We believe in using only the freshest ingredients to ensure every bite is memorable. At Flavor Rush, we are committed to providing a warm, welcoming atmosphere where every guest feels like family. Come, delve into our unique flavors and discover why we’re the ultimate destination.</p>
+                <a href="https://restaurant.eatapp.co/blog/restaurant-description"><button class="btn btn-warning mt-3">Read More</button></a>
+            </div>
+        </div>
+        </div> 
+      </div>
+    <section>
+   
+
+      <div class="mt-5"></div>
+      <h3 style="text-align: center;">Our Menu</h3>
+     </div>
+      <div class="container mt-5">
+        <div class="row text-center">
+            <div class="col-12">
+                <a href=""><button type="button" class="btn btn-dark m-2" id="ca">All</button></a>
+                <a href="burger.html"><button type="button" class="btn btn-light m-2" id="ca">Burger</button></a>
+                <a href="pizza.html"><button type="button" class="btn btn-light m-2" id="ca">Pizza</button></a>
+                <a href="french fries.html"><button type="button" class="btn btn-light m-2" id="ca">French fries</button></a>
+                <a href="chicken.html"><button type="button" class="btn btn-light m-2" id="ca">Fried Chicken</button></a> 
+            </div>
+        </div>
+    </div>
+  
+      <section>
+        <div class="container mt-5">
+          <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-3">
+              <div class="card menu-border">
+                <div class="image-container d-flex justify-content-center">
+                  <img src="images/b1.jpg" alt="Image to Zoom" class="img-fluid">
+              </div>
+                <div class="card-body bg-dark menu-border">
+                  <h5 class="card-title text-center text-white">Chicken Burger</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="text-white btn btn-warning menu-button">$12</p>
+                        <button style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                      </div>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-3">
+              <div class="card menu-border">
+                <div class="image-container d-flex justify-content-center">
+                  <img src="images/b2.jpg" alt="Image to Zoom" class="img-fluid">
+                </div>
+                <div class="card-body bg-dark menu-border">
+                  <h5 class="card-title text-center text-white">Veg Burger</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="text-white btn btn-warning menu-button">$15</p>
+                    <button style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                  </div> 
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-3">
+              <div class="card menu-border">
+                <div class="image-container d-flex justify-content-center">
+                  <img src="images/b3.jpg" alt="Image to Zoom" class="img-fluid">
+                </div>
+                <div class="card-body bg-dark menu-border">
+                  <h5 class="card-title text-center text-white">Cheese Burger</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="text-white btn btn-warning menu-button">$17</p>
+                    <button style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-5">
+          <div class="row">
+            <!-- Card 4 -->
+            <div class="col-md-4 mb-3">
+              <div class="card menu-border">
+                <div class="image-container d-flex justify-content-center">
+                  <img src="images/p1.jpg" alt="Image to Zoom" class="img-fluid">
+              </div>
+                <div class="card-body bg-dark menu-border">
+                  <h5 class="card-title text-center text-white">Corn Pizza</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="text-white btn btn-warning menu-button">$13</p>
+                    <button style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 5 -->
+            <div class="col-md-4 mb-3">
+              <div class="card menu-border">
+                <div class="image-container d-flex justify-content-center">
+                  <img src="images/p2.jpg" alt="Image to Zoom" class="img-fluid">
+                </div>
+                <div class="card-body bg-dark menu-border">
+                  <h5 class="card-title text-center text-white">Veg pizza</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="text-white btn btn-warning menu-button">$15</p>
+                    <button style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 6 -->
+            <div class="col-md-4 mb-3">
+              <div class="card menu-border">
+                <div class="image-container d-flex justify-content-center">
+                  <img src="images/p3.jpg" alt="Image to Zoom" class="img-fluid">
+                </div>
+                <div class="card-body bg-dark menu-border">
+                  <h5 class="card-title text-center text-white">Tomato Pizza</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="text-white btn btn-warning menu-button">$12</p>
+                    <button style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-5">
+          <div class="row">
+            <!-- Card 7 -->
+            <div class="col-md-4 mb-4 mb-3">
+              <div class="card menu-border">
+                <div class="image-container d-flex justify-content-center">
+                  <img src="images/p4.jpg" alt="Image to Zoom">
+              </div>
+                <div class="card-body bg-dark menu-border">
+                  <h5 class="card-title text-center text-white">Onion Pizza</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="text-white btn btn-warning menu-button">$18</p>
+                    <button style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 8 -->
+            <div class="col-md-4 mb-4 mb-3">
+              <div class="card menu-border">
+                <div class="image-container d-flex justify-content-center">
+                  <img src="images/p6.jpg" alt="Image to Zoom">
+                </div>
+                <div class="card-body bg-dark menu-border">
+                  <h5 class="card-title text-center text-white">Mushroom Pizza</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="text-white btn btn-warning menu-button">$16</p>
+                    <button style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 9 -->
+            <div class="col-md-4 mb-4 mb-3">
+              <div class="card menu-border">
+                <div class="image-container d-flex justify-content-center">
+                  <img src="images/p7.avif" alt="Image to Zoom">
+                </div>
+                <div class="card-body bg-dark menu-border">
+                  <h5 class="card-title text-center text-white">Chicken pizza</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="text-white btn btn-warning menu-button">$18</p>
+                    <button style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-5">
+          <div class="row">
+            <!-- Card 10 -->
+            <div class="col-md-4 mb-4 mb-3">
+              <div class="card menu-border">
+                <div class="image-container d-flex justify-content-center">
+                  <img src="images/f1.avif" alt="Image to Zoom">
+              </div>
+                <div class="card-body bg-dark menu-border">
+                  <h5 class="card-title text-center text-white">French Fries</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="text-white btn btn-warning menu-button">$12</p>
+                    <button style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 11 -->
+            <div class="col-md-4 mb-4 mb-3">
+              <div class="card menu-border">
+                <div class="image-container d-flex justify-content-center">
+                  <img src="images/c1.jpg" alt="Image to Zoom">
+                </div>
+                <div class="card-body bg-dark menu-border">
+                  <h5 class="card-title text-center text-white">Crispy Chicken</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="text-white btn btn-warning menu-button">$14</p>
+                    <button style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Card 12 -->
+            <div class="col-md-4 mb-4 mb-3">
+              <div class="card menu-border">
+                <div class="image-container d-flex justify-content-center">
+                  <img src="images/m1.jpg" alt="Image to Zoom">
+                </div>
+                <div class="card-body bg-dark menu-border">
+                  <h5 class="card-title text-center text-white">Chicken Momos</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex justify-content-between">
+                    <p class="text-white btn btn-warning menu-button">$18</p>
+                    <button style="font-size:24px" id="menu-button"> <i class="fa fa-shopping-cart"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-warning  mt-5 ">View More</button>
+        </div>  
+      </section>
+
+      <h1 class="text-center mt-5">Book Table</h1>
+    <section>
+        <div class="row mt-5 m-2">
+            <!-- Login Form -->
+            <div class="col-md-6" >
+                <div class="card">
+                    <div class="card-body"  style="background-color: rgb(188, 152, 223);">
+                        <h5 class="card-title text-center mb-5">Book Table</h5>
+                        <form action="/submit" method="post">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="username" name="username" required placeholder="Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control" id="password" name="password" required placeholder="Your Number">
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" id="password" placeholder="Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <select class="form-control" style="height: 40px;">
+                                    <option value="" disabled selected>
+                                      How many persons?
+                                    </option>
+                                    <option value="">2</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">5</option>
+                                    <option value="">More Then 5</option>
+                                  </select>
+                            </div>
+                            <div class="mb-3">
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <input type="time" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <input type="checkbox"> Remember Me
+                            </div>
+                            <div class="d-flex justify-content-center">
+                               <button type="submit" class="btn btn-primary mb-3">Book Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Google Map -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body" style="background-color: rgb(188, 152, 223);">
+                        <h5 class="card-title text-center">Location</h5>
+                        <div class="map-container">
+                            <!-- Replace YOUR_API_KEY with your actual Google Maps API key -->
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7897.334552750929!2d77.23772753538353!3d8.236173435413981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04ff0099edf54b%3A0xc790ad0e7499489f!2sKarungal%2C%20Tamil%20Nadu%20629157!5e0!3m2!1sen!2sin!4v1725287932882!5m2!1sen!2sin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 style="text-align: center; margin:65px;">What Says Our Customers</h1>
+  <section>
+    <!-- Google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700,700i,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i">
+    <!-- carousel -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"> -->
+   <section class="testimonial_section">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-7">
+                  <div class="about_content">
+                       <div class="background_layer"></div>
+                       <div class="layer_content">
+                           <div class="section_title">
+                               <h2>Happy with<strong>Customers</strong></h2>
+                               <div class="heading_line"><span></span></div>
+                               <p> Many customers focus on the quality of customer service. Positive comments often highlight friendly, helpful, and knowledgeable staff, while negative feedback might mention slow response times or unhelpful interactions.</p>
+                           </div>
+                           <a href="#">Contact Us<i class="icofont-long-arrow-right"></i></a>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-5">
+                   <div class="testimonial_box">
+                       <div class="testimonial_container">
+                           <div class="background_layer"></div>
+                           <div class="layer_content">
+                               <div class="testimonial_owlCarousel owl-carousel">
+                                   <div class="testimonials"> 
+                                       <div class="testimonial_content">
+                                           <div class="testimonial_caption">
+                                               <h6>Robert Clarkson</h6>
+                                               <span>CEO, Axura</span>
+                                           </div>
+                                           <p>The team at Tectxon industry is very talented, dedicated, well organized and knowledgeable. I was most satisfied with the quality of the workmanship. They did excellent work.</p>
+                                       </div>
+                                       <div class="images_box">
+                                           <div class="testimonial_img">
+                                               <img class="img-center" src="images/wom3.jpg" alt="images not found">
+                                           </div>
+                                       </div>
+                                   </div>
+                                   <div class="testimonials"> 
+                                       <div class="testimonial_content">
+                                           <div class="testimonial_caption">
+                                               <h6>Robert Clarkson</h6>
+                                               <span>CEO, Axura</span>
+                                           </div>
+                                           <p> Customers frequently mention their experiences with wait times, whether for a table, food preparation, or the check. Efficient and timely service tends to receive positive remarks, while long waits can be a source of frustration.</p>
+                                       </div>
+                                       <div class="images_box">
+                                           <div class="testimonial_img">
+                                               <img class="img-center" src="images/wom.png" alt="images not found">
+                                           </div>
+                                       </div>
+                                   </div>
+                                   <div class="testimonials"> 
+                                       <div class="testimonial_content">
+                                           <div class="testimonial_caption">
+                                               <h6>Robert Clarkson</h6>
+                                               <span>CEO, Axura</span>
+                                           </div>
+                                           <p> Diners often discuss whether they feel they got good value for what they paid. They might comment on portion sizes, pricing, and whether the experience met their expectations given the cost.
+ 
+                                           </p>
+                                       </div>
+                                       <div class="images_box">
+                                           <div class="testimonial_img">
+                                               <img class="img-center" src="images/wom2.jpg" alt="images not found">
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+           <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+           <script src="JavaScript.js"></script>
+  </section>
+  
+
+  <h1 class="text-center mt-5">Contact</h1>
+  <section>  
+    <div class="bg-dark mt-5">
+      <div class="container mt-5 mt-5">
+      <div class="row text-center">
+          <div class="col-md-4">
+              <h2 class="contact-Us mt-5">Contact Us</h2><br>
+              <p class="fa fa-map-marker contact-us" style="font-size: 20px;"> Location</p><br><br>
+              <p class="fa fa-phone contact-us" style="font-size: 20px;"> call +01 65798432109</p><br><br>
+              <p class="fa fa-envelope contact-us" style="font-size: 20px;"> info@gmail.com</p><br>
+          </div>
+          <div class="col-md-4">
+              <h2 class="contact-Us mt-5">Flavor Rush</h2><br>      
+              <p class="Contact-text">We source the finest ingredients, ensuring every dish is made with fresh, seasonal, and locally-sourced products.</p>
+              <i class="fa fa-whatsapp contact-icon" style="font-size:24px"></i>
+              <i class="fa fa-facebook contact-icon" style="font-size:24px"></i>
+              <i class="fa fa-twitter contact-icon" style="font-size:24px"></i>
+              <i class="fa fa-instagram contact-icon" style="font-size:24px"></i>
+              <i class="fa fa-pinterest contact-icon" style="font-size:24px"></i>
+          </div>
+          <div class="col-md-4">
+              <h2 class="contact-Us mt-5">Opening Hours</h2><br>              
+              <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                    <p class="text-white">09AM - 09PM</p><br>
+                    <h5 class="text-light fw-normal">Sunday</h5>
+                    <p class="text-white">10AM - 08PM</p>
+          </div>
+      </div>
+     </div class="mt-5 mb-5">
+       <p style="color: white; text-align: center; font-size: 18px;">© 2024 All Rights Reserved By Jebarlin</p>
+    </div> 
+  </section>
+
+</body>
+</html>
